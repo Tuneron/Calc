@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    class Calculate
+     partial class Calculate
     {
         private float numberOne;
         private float numberTwo;
