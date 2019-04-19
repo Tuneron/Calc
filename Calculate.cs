@@ -75,35 +75,30 @@ namespace Calc
                         numberOne += numberTwo;
                         return numberOne;
                     }
-                    break;
                 case 2:
                     {
                         RecordStop = false;
                         numberOne -= numberTwo;
                         return numberOne;
                     }
-                    break;
                 case 3:
                     {
                         RecordStop = false;
                         numberOne *= numberTwo;
                         return numberOne;
                     }
-                    break;
                 case 4:
                     {
                         RecordStop = false;
                         numberOne /= numberTwo;
                         return numberOne;
                     }
-                    break;
                 case 5:
                     {
                         RecordStop = false;
                         numberOne = (float)Math.Pow(numberOne, 0.5);
                         return numberOne;
                     }
-                    break;
                 default:
                     {
                         return 404;
